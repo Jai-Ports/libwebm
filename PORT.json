@@ -1,0 +1,66 @@
+{
+  "schema_version": 3,
+  "name": "libwebm",
+  "upstream": {
+    "url": "https://chromium.googlesource.com/webm/libwebm",
+    "commit": "6184f4484a826724b5293837134ab9492261b941"
+  },
+  "generator": {
+    "repository": "https://github.com/Jai-Ports/generator.git",
+    "commit": "ab02dd192308f04359d639f950bc51503617ff39"
+  },
+  "language": "c++",
+  "standard": "c++11",
+  "supported_target": "linux-x64",
+  "include_directories": [
+  ],
+  "compiler_flags": [
+    "-I.",
+    "-fwrapv",
+    "-ffp-contract=off"
+  ],
+  "cmake": {"enabled": false, "source_directory": "", "cache_variables": [
+    ], "source_cache_variables": [], "build_targets": [
+    ]},
+  "make": {"enabled": false, "configure_script": "", "configure_arguments": [
+    ], "variables": [
+    ], "generated_targets": [
+    ]},
+  "prepared_files": [
+  ],
+  "dependencies": [
+  ],
+  "submodules": [
+  ],
+  "modules": [
+    {
+      "path": "",
+      "transpiler_prefix": "webm",
+      "sources": [
+        "common/file_util.cc",
+        "common/hdr_util.cc",
+        "mkvmuxer/mkvmuxer.cc",
+        "mkvmuxer/mkvmuxerutil.cc",
+        "mkvmuxer/mkvwriter.cc",
+        "mkvparser/mkvparser.cc",
+        "mkvparser/mkvreader.cc"
+      ],
+      "generator_sources": [],
+      "source_groups": [],
+      "cmake_targets": [
+      ],
+      "make_targets": [
+      ],
+      "defines": [
+        "__STDC_CONSTANT_MACROS",
+        "__STDC_FORMAT_MACROS",
+        "__STDC_LIMIT_MACROS"
+      ],
+      "compiler_flags": [
+      ],
+      "system_libraries": [
+      ],
+      "entry": "cpp_transpiler_program.jai"
+    }
+  ]
+}
