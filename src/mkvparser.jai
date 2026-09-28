@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 Unnamed_449 :: union {
     d: float64;
     dd: u64;

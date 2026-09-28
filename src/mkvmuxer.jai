@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 Primary_Chromaticity_Ptr_in_mkvmuxer :: Class_Unique_Ptr_Class_Primary_Chromaticity;
 
 PIECEWISE_CONSTRUCT: Piecewise_Construct_T;

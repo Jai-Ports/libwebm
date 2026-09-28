@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 Serialize_Float_U32 :: union {
     u32_: Uint32;
     f: float32;

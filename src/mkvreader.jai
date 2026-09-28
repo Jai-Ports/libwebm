@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 E_PARSE_FAILED_in_mkvreader: s32;
 
 E_FILE_FORMAT_INVALID_in_mkvreader: s32;

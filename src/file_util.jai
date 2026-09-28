@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 #load "cpp_transpiler_runtime.jai";
 
 c_str :: (using class_basic_string_char: *Class_Basic_String_Char) -> *s8 {

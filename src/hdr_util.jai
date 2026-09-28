@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 LIBWEBM_VP9_CODEC_FEATURES_K_VALUE_NOT_PRESENT: s32;
 
 K_MAX_TRACK_NUMBER: u64;

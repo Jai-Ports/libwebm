@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 K_MAX_TRACK_NUMBER_in_mkvwriter: u64;
 
 close_2 :: (using mkv_writer: *Mkv_Writer) {
